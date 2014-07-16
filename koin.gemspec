@@ -28,7 +28,12 @@ Gem::Specification.new do |spec|
   spec.add_dependency "omniauth"
   spec.add_dependency "omniauth-facebook"
   spec.add_dependency "sidekiq"
+  spec.add_dependency "redis"
   spec.add_dependency "whenever"
   spec.add_dependency "koala"
   spec.add_dependency "foreman"
+  spec.add_dependency "dropbox-sdk"
+  spec.add_dependency "capistrano"
+  spec.add_dependency "capistrano-rvm"
+  spec.add_dependency "capistrano-bundler"
 end

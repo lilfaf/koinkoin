@@ -23,7 +23,7 @@ module Koin
 
     get '/clear' do
       Koin::Persistence.clear
-      `rm songs/*.mp3 songs/*.m4a songs/*.part`
+      `rm tmp/songs/*.mp3 tmp/songs/*.m4a tmp/songs/*.part`
       redirect '/'
     end
   end

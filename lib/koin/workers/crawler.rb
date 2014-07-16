@@ -1,5 +1,3 @@
-require 'uri'
-
 module Koin
   module Workers
     class Crawler
@@ -27,8 +25,9 @@ module Koin
               Koin::Persistence.mark(@url)
               @count += 1
 
-              @url = sanitized_url
-              logger.info "Pushing #{@url} to extraction queue"
+              @url = sanitized_url if youtube_url?
+              logger.info "Found #{@url}..."
+              Koin::Workers::Extractor.perform_async(post['id'], @url)
             end
           end
           feed = feed.next_page(since: @last_lookup)

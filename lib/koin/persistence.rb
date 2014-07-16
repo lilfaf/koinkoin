@@ -26,16 +26,16 @@ module Koin
         redis_conn { |conn| conn.set('last_lookup', time.to_i) }
       end
 
-      def clear
-        redis_conn { |conn| conn.del 'access_token', 'expires', 'seen', 'last_lookup' }
-      end
-
       def seen?(url)
         redis_conn { |conn| conn.sismember('seen', url) }
       end
 
       def mark(url)
         redis_conn { |conn| conn.sadd('seen', url) }
+      end
+
+      def clear
+        redis_conn { |conn| conn.del 'access_token', 'expires', 'seen', 'last_lookup' }
       end
 
       def redis_conn
