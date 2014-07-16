@@ -38,4 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "capistrano-rvm"
   spec.add_dependency "capistrano-bundler"
   spec.add_dependency "capistrano-sidekiq"
+  spec.add_dependency "capistrano3-puma"
 end
