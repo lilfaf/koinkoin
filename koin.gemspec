@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "puma"
   spec.add_dependency "sinatra"
   spec.add_dependency "dotenv"
+  spec.add_dependency "dotenv-deployment"
   spec.add_dependency "omniauth"
   spec.add_dependency "omniauth-facebook"
   spec.add_dependency "sidekiq"
@@ -36,4 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "capistrano"
   spec.add_dependency "capistrano-rvm"
   spec.add_dependency "capistrano-bundler"
+  spec.add_dependency "capistrano-sidekiq"
 end
