@@ -12,10 +12,11 @@ module Koin
       def initialize
         @count = 0
         @api = Koala::Facebook::API.new(Koin::Persistence.access_token)
+        @last_lookup = Koin::Persistence.last_lookup
       end
 
       def perform
-        feed  = @api.get_connections(ENV['FB_GROUP_ID'], 'feed')
+        feed  = @api.get_connections(ENV['FB_GROUP_ID'], 'feed', since: @last_lookup)
         while feed
           feed.each do |post|
             @url = post['link'] || URI.extract(post['message'] || '').first
@@ -30,9 +31,10 @@ module Koin
               logger.info "Pushing #{@url} to extraction queue"
             end
           end
-          feed = feed.next_page
+          feed = feed.next_page(since: @last_lookup)
         end
 
+        Koin::Persistence.last_lookup = Time.now
         logger.info "Found #{@count} tracks"
       end
 
