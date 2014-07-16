@@ -5,6 +5,8 @@ task :renew_token do
   access_token = Koin::Persistence.access_token
   expires = Koin::Persistence.expires
 
+  exit unless access_token
+
   if !expires || expires <= Time.now.to_s
     access_info = facebook_oauth.exchange_access_token_info(access_token)
 

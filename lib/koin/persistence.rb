@@ -19,7 +19,15 @@ module Koin
       end
 
       def clear
-        redis_conn { |conn| conn.del 'access_token', 'expires' }
+        redis_conn { |conn| conn.del 'access_token', 'expires', 'seen' }
+      end
+
+      def seen?(url)
+        redis_conn { |conn| conn.sismember('seen', url) }
+      end
+
+      def mark(url)
+        redis_conn { |conn| conn.sadd('seen', url) }
       end
 
       def redis_conn
