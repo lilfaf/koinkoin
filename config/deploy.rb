@@ -30,7 +30,7 @@ set :log_level, :debug
 set :pty, true
 
 # Default value for :linked_files is []
-set :linked_files, %w{.env .env.production}
+set :linked_files, %w{.env .env.production config/sidekiq.yml}
 
 # Default value for linked_dirs is []
 set :linked_dirs, %w{tmp/pids tmp/sockets log bin}
@@ -41,8 +41,13 @@ set :linked_dirs, %w{tmp/pids tmp/sockets log bin}
 # Default value for keep_releases is 5
 set :keep_releases, 3
 
-namespace :deploy do
+# Default value for :sidekiq_config is :nil
+set :sidekiq_config, File.join(shared_path, 'sidekiq.yml')
 
+# Default value for :sidekiq_require is :nil
+set :sidekiq_require, File.join(release_path, 'lib', 'koin.rb')
+
+namespace :deploy do
   task :restart_nginx do
     on roles(:web), wait: 3 do
       execute "sudo service nginx restart"
