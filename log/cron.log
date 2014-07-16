@@ -1,0 +1,1299 @@
+lets test our access token
+lets test our access token
+lets test our access token
+lets test our access token
+lets test our access token
+lets test our access token
+lets test our access token
+Start crawler
+lets test our access token
+Start crawler
+lets test our access token
+Start crawler
+rake aborted!
+LocalJumpError: break from proc-closure
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+lets test our access token
+Start crawler
+lets test our access token
+Start crawler
+lets test our access token
+Start crawler
+lets test our access token
+Start crawler
+lets test our access token
+Start crawler
+lets test our access token
+Start crawler
+rake aborted!
+Don't know how to build task 'renew_token'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl
+(See full trace by running task with --trace)
+Start crawler
+rake aborted!
+SyntaxError: /Users/louis/Github/koin/Rakefile:5: syntax error, unexpected {, expecting '('
+  access_token = Sidekiq.redis. { |conn| conn.get 'access_token' }
+                                 ^
+/Users/louis/Github/koin/Rakefile:5: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  access_token = Sidekiq.redis. { |conn| conn.get 'access_token' }
+                                                   ^
+/Users/louis/Github/koin/Rakefile:5: syntax error, unexpected '}', expecting keyword_end
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/louis/Github/koin/Rakefile:5: syntax error, unexpected {, expecting '('
+  access_token = Sidekiq.redis. { |conn| conn.get 'access_token' }
+                                 ^
+/Users/louis/Github/koin/Rakefile:5: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+  access_token = Sidekiq.redis. { |conn| conn.get 'access_token' }
+                                                   ^
+/Users/louis/Github/koin/Rakefile:5: syntax error, unexpected '}', expecting keyword_end
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+Start crawler
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: requires a block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:69:in `redis'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+NameError: uninitialized constant Koin::Redis
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+
+Start crawler
+CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+
+Start crawler
+rake aborted!
+NoMethodError: undefined method `access_token' for main:Object
+/Users/louis/Github/koin/Rakefile:8:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `access_token=' for main:Object
+/Users/louis/Github/koin/Rakefile:8:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+
+Start crawler
+CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+
+Start crawler
+CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+
+Start crawler
+CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+
+Start crawler
+
+lets get a long lived token from #{cred[:access_token]}
+Start crawler
+rake aborted!
+NoMethodError: undefined method `>=' for nil:NilClass
+/Users/louis/Github/koin/Rakefile:11:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+lets get a long lived token from CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+Start crawler
+lets get a long lived token from CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+Start crawler
+lets get a long lived token from CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+Start crawler
+Start crawler
+rake aborted!
+NameError: undefined local variable or method `facebook_oauth' for main:Object
+/Users/louis/Github/koin/Rakefile:14:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+Old token CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+Got new token CAAD2vROyogUBAAqGCpgyG6hE3bvG6wfG0QIjlV94zcjlwaGethZAQrX1bJdTPtPCJzczr9ZCZBIuM3zJhFrWCS3mGUZCrJeSBogy7nTXOerfYAhuda61awPaWR1XGEgZCqhrPAoeockFMLfmIkv11VUpqZCZCO56FudYLnDPosZAzEp8EjOkzRCF
+Start crawler
+rake aborted!
+NameError: undefined local variable or method `new_cred' for main:Object
+/Users/louis/Github/koin/Rakefile:17:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+Old token CAAD2vROyogUBAKW22Rgry3MvNhX7j8th3ugTkJJW3MEKIRegM8V9zoy9Cwesh1FkIk0EzxC4S7Yw028uu5WxpguJTQ1q5xpVWeKSjrGOdmKgZBcos7S6ZAzmLZAN9XGbhTC6yOTreNv3OZA8JMB60VNyTPCCDi7B5OX3LVxDpZAumJtCWxGGZAERA6ogozQfwd67kXXLtoUHxVa35M5cyD
+Got new token CAAD2vROyogUBAJEPeXQOrUEsARaOy8CzLKh7mC12O6DGlJdGESU7Va9WvYCISb7rCaSVkZBVT7novF8eV2zHVzf6sFsdwk8JPbi2Ek6LX9qeJudv0DNurQFzHZB8a9zCXImyKhVRDBlf12uB7ghSAlvhhU9E2udsi0ycFuZB71Ic5R6Jf2ciptdVqQCrUcZD
+rake aborted!
+NameError: undefined local variable or method `token' for main:Object
+/Users/louis/Github/koin/Rakefile:19:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+NameError: undefined local variable or method `key' for main:Object
+/Users/louis/Github/koin/Rakefile:16:in `block (2 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:16:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: wrong number of arguments (1 for 2..3)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:657:in `set'
+/Users/louis/Github/koin/Rakefile:16:in `block (2 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:16:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+Got new token CAAD2vROyogUBAJhwz7oBmKgKtV9BskZBK4ubpd45dZCUpU3OgbP0XCVFuwLQ3iCDhUUfbR0qog8NZAPyjqxGJW0bpZBD4k4bGoPck8Bt3GzJts2Os3CtlZCFYlUIUnPCM4wwcc8v04JgqlDp1tp739XJCwVl7bohXmXXJ2hqlZCrqmpBAUbKeK
+Start crawler
+rake aborted!
+ArgumentError: wrong number of arguments (1 for 2..3)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:657:in `set'
+/Users/louis/Github/koin/Rakefile:28:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:28:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:27:in `each'
+/Users/louis/Github/koin/Rakefile:27:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: wrong number of arguments (1 for 2..3)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:657:in `set'
+/Users/louis/Github/koin/Rakefile:18:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:18:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:18:in `each'
+/Users/louis/Github/koin/Rakefile:18:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: comparison of String with 1405475341 failed
+/Users/louis/Github/koin/Rakefile:14:in `>='
+/Users/louis/Github/koin/Rakefile:14:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+5172835
+1405475341
+rake aborted!
+ArgumentError: comparison of String with 1405475402 failed
+/Users/louis/Github/koin/Rakefile:14:in `>='
+/Users/louis/Github/koin/Rakefile:14:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+5172835
+1405475402
+rake aborted!
+SyntaxError: /Users/louis/Github/koin/Rakefile:12: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...[:access_token_expires_at])cred[:access_token_expires_at]
+...                               ^
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: comparison of String with 1405475521 failed
+/Users/louis/Github/koin/Rakefile:14:in `>='
+/Users/louis/Github/koin/Rakefile:14:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+1970-03-01 21:53:55 +0100
+2014-07-16 03:52:01 +0200
+rake aborted!
+ArgumentError: comparison of String with 1405475581 failed
+/Users/louis/Github/koin/Rakefile:15:in `>='
+/Users/louis/Github/koin/Rakefile:15:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+2014-09-14 00:46:56 +0200
+2014-07-16 03:53:01 +0200
+rake aborted!
+ArgumentError: comparison of String with 1405475641 failed
+/Users/louis/Github/koin/Rakefile:15:in `>='
+/Users/louis/Github/koin/Rakefile:15:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+2014-09-14 00:47:56 +0200
+2014-07-16 03:54:01 +0200
+rake aborted!
+ArgumentError: comparison of String with 1405475702 failed
+/Users/louis/Github/koin/Rakefile:15:in `>='
+/Users/louis/Github/koin/Rakefile:15:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+2014-09-14 00:48:57 +0200
+2014-07-16 03:55:02 +0200
+rake aborted!
+ArgumentError: comparison of String with 1405475761 failed
+/Users/louis/Github/koin/Rakefile:15:in `>='
+/Users/louis/Github/koin/Rakefile:15:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+2014-09-14 00:49:56 +0200
+2014-07-16 03:56:01 +0200
+Got new token CAAD2vROyogUBACATjXu8fLKOM0daZCZAo77kUJD6dCeU3ZAcUZBzImBUOtaaUfnj0HZBZAhLmTe2qcZBwWsV8rQTOegOlZApb3PHBPYQZBrBZAgnZAHGS7hiTBHTTVUWagchuWQl1JOJgskXpoS6kfNGlyxrKzD9t5siGyWoDlpIuZA5pfnrvH4LTYNA
+Start crawler
+2014-07-16 03:58:02 +0200
+2014-09-14 00:42:39 +0200
+Start crawler
+rake aborted!
+NoMethodError: undefined method `day' for 30:Fixnum
+/Users/louis/Github/koin/Rakefile:15:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+2014-07-16 03:59:01 +0200
+2014-09-14 00:42:39 +0200
+Start crawler
+Start crawler
+Start crawler
+Start crawler
+Start crawler
+Start crawler
+Start crawler
+Start crawler
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+Start crawler
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/Rakefile:7:in `block (3 levels) in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/Rakefile:7:in `block (2 levels) in <top (required)>'
+/Users/louis/Github/koin/Rakefile:6:in `each'
+/Users/louis/Github/koin/Rakefile:6:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+Start crawler
+Start crawler
+Start crawler
+Start crawler
+Start crawler
+rake aborted!
+Koala::Facebook::OAuthTokenRequestError: type: OAuthException, code: 1, message: fb_exchange_token parameter not specified [HTTP 400]
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/koala-1.10.0rc2/lib/koala/oauth.rb:367:in `fetch_token_string'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/koala-1.10.0rc2/lib/koala/oauth.rb:314:in `get_token_from_server'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/koala-1.10.0rc2/lib/koala/oauth.rb:233:in `exchange_access_token_info'
+/Users/louis/Github/koin/Rakefile:23:in `get_or_renew_fb_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => ensure_valid_token
+(See full trace by running task with --trace)
+rake aborted!
+NameError: undefined local variable or method `access_token' for main:Object
+/Users/louis/Github/koin/Rakefile:9:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+rake aborted!
+TypeError: no implicit conversion of String into Integer
+/Users/louis/Github/koin/Rakefile:9:in `exit'
+/Users/louis/Github/koin/Rakefile:9:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+rake aborted!
+NoMethodError: undefined method `acces_token' for Koin::Persistence:Class
+/Users/louis/Github/koin/Rakefile:11:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `acces_token' for Koin::Persistence:Class
+/Users/louis/Github/koin/Rakefile:11:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `acces_token' for Koin::Persistence:Class
+/Users/louis/Github/koin/Rakefile:11:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `access_token' for Koin::Persistence:Class
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `access_token' for Koin::Persistence:Class
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+Starting crawler...
+rake aborted!
+Koala::Facebook::OAuthTokenRequestError: type: OAuthException, code: 1, message: fb_exchange_token parameter not specified [HTTP 400]
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/koala-1.10.0rc2/lib/koala/oauth.rb:367:in `fetch_token_string'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/koala-1.10.0rc2/lib/koala/oauth.rb:314:in `get_token_from_server'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/koala-1.10.0rc2/lib/koala/oauth.rb:233:in `exchange_access_token_info'
+/Users/louis/Github/koin/Rakefile:10:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+Starting crawler...
+Starting crawler...
+rake aborted!
+SyntaxError: /Users/louis/Github/koin/lib/koin/workers/crawler.rb:16: syntax error, unexpected keyword_end
+/Users/louis/Github/koin/lib/koin/workers/crawler.rb:27: syntax error, unexpected end-of-input, expecting keyword_end
+/Users/louis/Github/koin/lib/koin.rb:10:in `require'
+/Users/louis/Github/koin/lib/koin.rb:10:in `<top (required)>'
+/Users/louis/Github/koin/Rakefile:2:in `require'
+/Users/louis/Github/koin/Rakefile:2:in `<top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+rake aborted!
+SyntaxError: /Users/louis/Github/koin/lib/koin/api.rb:1: class/module name must be CONSTANT
+/Users/louis/Github/koin/lib/koin.rb:9:in `require'
+/Users/louis/Github/koin/lib/koin.rb:9:in `<top (required)>'
+/Users/louis/Github/koin/Rakefile:2:in `require'
+/Users/louis/Github/koin/Rakefile:2:in `<top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+(See full trace by running task with --trace)
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+Starting crawler...
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)
+rake aborted!
+Redis::CannotConnectError: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:309:in `rescue in establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:6379
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:129:in `rescue in connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:121:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+IO::EINPROGRESSWaitWritable: Operation now in progress - connect(2) would block
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_nonblock'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:122:in `connect_addrinfo'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:162:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `each_with_index'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:160:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/connection/ruby.rb:211:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:304:in `establish_connection'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:85:in `block in connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:266:in `with_reconnect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:84:in `connect'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:326:in `ensure_connected'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:197:in `block in process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:279:in `logging'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:196:in `process'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis/client.rb:102:in `call'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:784:in `block in get'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `block in synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:37:in `synchronize'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/redis-3.1.0/lib/redis.rb:783:in `get'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `block in access_token'
+/Users/louis/Github/koin/lib/koin/persistence.rb:27:in `block in redis_conn'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/connection_pool-2.0.0/lib/connection_pool.rb:58:in `with'
+/Users/louis/.rvm/gems/ruby-2.1.2/gems/sidekiq-3.2.1/lib/sidekiq.rb:70:in `redis'
+/Users/louis/Github/koin/lib/koin/persistence.rb:26:in `redis_conn'
+/Users/louis/Github/koin/lib/koin/persistence.rb:10:in `access_token'
+/Users/louis/Github/koin/Rakefile:5:in `block in <top (required)>'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/louis/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => crawl => renew_token
+(See full trace by running task with --trace)

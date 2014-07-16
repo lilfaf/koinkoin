@@ -20,4 +20,15 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+
+  spec.add_dependency "puma"
+  spec.add_dependency "sinatra"
+  spec.add_dependency "dotenv"
+  spec.add_dependency "omniauth"
+  spec.add_dependency "omniauth-facebook"
+  spec.add_dependency "sidekiq"
+  spec.add_dependency "whenever"
+  spec.add_dependency "koala"
+  spec.add_dependency "foreman"
 end
