@@ -7,7 +7,7 @@ require 'koala'
 require 'redis'
 require 'sidekiq'
 require 'dotenv'
-Dotenv.load
+require 'dotenv/deployment'
 
 require 'koin/persistence'
 require 'koin/web'
