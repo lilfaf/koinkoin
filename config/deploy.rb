@@ -4,6 +4,7 @@ lock '3.2.1'
 set :application, 'soundbot'
 set :repo_url, 'https://github.com/lilfaf/koin.git'
 set :puma_bind, 'tcp://0.0.0.0:9292'
+set :rack_env, 'production'
 
 # Default value for :rvm_type is :auto
 set :rvm_type, :user
