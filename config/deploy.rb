@@ -47,6 +47,9 @@ set :sidekiq_config, File.join(shared_path, 'sidekiq.yml')
 # Default value for :sidekiq_require is :nil
 set :sidekiq_require, File.join(release_path, 'lib', 'koin.rb')
 
+# Default value for :whenever_roles is :db
+set :whenever_roles, :app
+
 namespace :deploy do
   task :restart_nginx do
     on roles(:web), wait: 3 do
