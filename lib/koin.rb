@@ -19,7 +19,7 @@ require 'koin/workers/commenter'
 module Koin
   Sidekiq.configure_client do |config|
     config.redis = ConnectionPool.new(size: 5, timeout: 1) do
-      Redis.new(host: ENV['REDIS_HOST'])
+      Redis.new(url: ENV['REDIS_URL'])
     end
   end
 end
