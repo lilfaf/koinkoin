@@ -4,8 +4,8 @@
 :pidfile: tmp/pids/sidekiq.pid
 :logfile: log/sidekiq.log
 :queues:
-  - extractor
-  - uploader
-  - commenter
-  - crawler
+  - [uploader, 5]
+  - [commenter, 5]
+  - [extractor, 5]
+  - [crawler, 3]
   - default
