@@ -10,10 +10,12 @@ module Koin
 
       def perform(id, path)
         filename = path.gsub('tmp/songs/', '')
-        file = File.open(path.chomp)
+        file = File.open(path)
         @client.put_file(filename, file)
-
         logger.info "Uploaded #{filename} succesfully!"
+
+        File.delete(path)
+        logger.info "Removed file #{path}"
 
         share_link = @client.shares(filename)
         Koin::Workers::Commenter.perform_async(id, share_link['url'])

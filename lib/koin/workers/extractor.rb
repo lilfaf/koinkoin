@@ -22,7 +22,7 @@ module Koin
         destination = stdout.scan(/^\[ffmpeg|download\] Destination: (.*)$/).flatten.first.sub(/[^.]+\z/, 'mp3')
         raise "Destination path not found for #{url}" unless destination
 
-        Koin::Workers::Uploader.perform_async(id, destination)
+        Koin::Workers::Uploader.perform_async(id, destination.chomp)
 
         logger.info "Extracted file to #{destination}"
       end
