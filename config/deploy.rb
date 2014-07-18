@@ -28,10 +28,10 @@ set :format, :pretty
 set :log_level, :debug
 
 # Default value for :pty is false
-set :pty, true
+set :pty, false
 
 # Default value for :linked_files is []
-set :linked_files, %w{.env .env.production config/sidekiq.yml}
+set :linked_files, %w{.env config/sidekiq.yml}
 
 # Default value for linked_dirs is []
 set :linked_dirs, %w{tmp/pids tmp/sockets log bin}

@@ -1,7 +1,8 @@
 require 'bundler/gem_tasks'
+require 'dotenv/tasks'
 require File.expand_path('../lib/koin', __FILE__)
 
-task :renew_token do
+task :renew_token => :dotenv do
   access_token = Koin::Persistence.access_token
   expires = Koin::Persistence.expires
 
